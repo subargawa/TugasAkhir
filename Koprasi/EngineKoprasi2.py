@@ -1,5 +1,5 @@
 import mysql.connector
-from TugasAkhir.Koprasi2_Function import ExportDataToJson
+from TugasAkhir.Koprasi.Koprasi2_Function import ExportDataToJson
 
 #Koneksikan database berupa "user","host" dan "database" pada db_koprasi2 dimana adalah database koprasi kedua
 # dan memasukkannya kedalam variabel "con_database"
