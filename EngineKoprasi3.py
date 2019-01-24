@@ -1,6 +1,5 @@
 import mysql.connector
-import datetime
-from MDI.TugasAkhir import Koprasi3_Function
+from TugasAkhir import Koprasi3_Function
 
 con_database = mysql.connector.connect(user="root", host="localhost", database="db_koprasi3")
 cur_database = con_database.cursor(buffered=True)
