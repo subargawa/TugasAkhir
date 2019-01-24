@@ -183,11 +183,13 @@ def importDataToDatabase(con_database,cur_database,column,category,split):
                                                       (id_det_lis, cat_shu[0]))
                                 con_database.commit()
                                 print("Category Telah di-input-kan kedalam tabel SHU")
+                                time.sleep(1)
                                 # sum jumlah
                                 pass
 
                             elif validCategory is not None:
                                 print("Category SHU Sudah Tercatat pada Database")
+                                time.sleep(1)
                                 pass
 
 
